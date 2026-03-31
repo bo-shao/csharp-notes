@@ -13,7 +13,6 @@ message ChatMessage {
   string user = 1;
   string content = 2;
   string timestamp = 3;
-  string requestId = 4;
 }
 
 message ServerInfoRequest {}
